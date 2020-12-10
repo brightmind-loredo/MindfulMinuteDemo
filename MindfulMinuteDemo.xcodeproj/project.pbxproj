@@ -202,11 +202,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Ben Church";
 				TargetAttributes = {
 					D174EA0020EE172C00953F9E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1210;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 1;
@@ -215,10 +216,12 @@
 					};
 					D174EA1420EE172D00953F9E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1210;
 						TestTargetID = D174EA0020EE172C00953F9E;
 					};
 					D174EA1F20EE172D00953F9E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1210;
 						TestTargetID = D174EA0020EE172C00953F9E;
 					};
 				};
@@ -357,6 +360,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -382,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,6 +421,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -436,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -459,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.education.self.MindfulMinuteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -478,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.education.self.MindfulMinuteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -497,7 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.education.self.MindfulMinuteDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindfulMinuteDemo.app/MindfulMinuteDemo";
 			};
@@ -517,7 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.education.self.MindfulMinuteDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindfulMinuteDemo.app/MindfulMinuteDemo";
 			};
@@ -536,7 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.education.self.MindfulMinuteDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MindfulMinuteDemo;
 			};
@@ -555,7 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.education.self.MindfulMinuteDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MindfulMinuteDemo;
 			};
